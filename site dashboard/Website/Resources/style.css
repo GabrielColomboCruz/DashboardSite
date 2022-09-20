@@ -1,0 +1,158 @@
+*{
+
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--FontePadrao);
+
+}
+#main{
+    display: flex;
+}
+#left{
+    display: flex;
+    flex-flow: wrap column;
+}
+#right{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+:root {
+    --CorPadrao: #E3E3E3;
+    
+    --CorSecundaria: #8776AC;
+    --CorCard2: #796E9B;
+
+    --CorTercearia: #685E85;
+
+    --CorCard: #564D6F;
+
+    --CorQuaternaria: #332B43;
+    --CorQuintenaria: #8B8793;
+    
+    --FontePadrao: Arial, sans-serif;
+    --FonteDestaque1: 'Oswald', sans-serif;
+    
+
+}
+
+
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 20vw;
+    height: 67vh;
+    background-color: var(--CorTercearia);
+    
+}
+header{    
+    display: flex;
+    width: 20vw;
+    height: 33vh;
+    background-color: var(--CorPadrao);
+    flex-flow: nowrap column;
+    align-items: center;
+    font-size: 1.2vw;
+    
+}
+h1{
+    text-align: left;
+    font-family: var(--FonteDestaque1);
+}
+
+footer{
+    
+    width: 80vw;
+    height: 11vh;
+    background-color: var(--CorQuaternaria);
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5vw;
+}
+main{
+    display: flex;
+    width: 80vw;
+    height: 78vh;
+    background-color: var(--CorSecundaria);
+}
+
+#card{
+    width: 18vw;
+    height: 11vh;
+    background-color: var(--CorTercearia);
+    margin: 10px;
+    font-size: 2.2vw;
+    display: flex;
+    align-items: center;
+    border-radius: 1vh;
+}
+#cardhover :hover{
+    background-color: var(--CorCard);
+}
+
+
+#card2{
+    width: 25vw;
+    height: 30vh;
+    background-color: var(--CorCard2);
+    margin: 20px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+   font-size: 1.2vw;
+   border-radius: 1vh;
+}
+
+#dashboard{
+    width: 80vw;
+    height: 11vh;
+    background-color: var(--CorQuintenaria);
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5vw;
+}
+#dash{
+    display: flex;
+    align-items: flex-end;
+}
+#divdesc{
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
+    margin: 10px;
+}
+
+#imglogo{
+    width: 21vh;
+    height: 4vh;
+    margin: 1vh;
+}
+#imgperfil{
+    width: 21vh;
+    height: 21vh;
+    border-radius: 1000vw;
+
+}
+#imgdescri{
+    width: 17vh;
+    height: 17vh;
+    border-radius: 1000vw; 
+}
+#imgdash{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 1000vw; 
+    margin: 10px;
+}
+#imgmenu{
+    width: 5vh;
+    height: 5vh;
+}
